@@ -1,2 +1,6 @@
-# javascript-issue
-用于记录一些常见的javascript的问题
+yrblog
+======
+
+这里记录一些我平时学习中，工作中的前端的知识。
+
+
