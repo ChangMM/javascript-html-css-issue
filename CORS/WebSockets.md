@@ -3,7 +3,7 @@
 
 `WebSocket` 设计出来的目的就是要取代轮询和 `Comet` 技术，使客户端浏览器具备像 C/S 架构下桌面系统的实时通讯能力。 浏览器通过 `JavaScript` 向服务器发出建立 `WebSocket` 连接的请求，连接建立以后，客户端和服务器端就可以通过 `TCP` 连接直接交换数据。
 
-因为 `WebSocket` 连接本质上就是一个 `TCP` 连接，所以在数据传输的稳定性和数据传输量的大小方面，和轮询以及 `Comet` 技术比较，具有很大的性能优势。http://Websocket.org 网站对传统的轮询方式和 `WebSocket` 调用方式作了一个详细的测试和比较，将一个简单的 `Web` 应用分别用轮询方式和 `WebSocket` 方式来实现，在这里引用一下他们的测试结果图：
+因为 `WebSocket` 连接本质上就是一个 `TCP` 连接，所以在数据传输的稳定性和数据传输量的大小方面，和轮询以及 `Comet` 技术比较，具有很大的性能优势。http://websocket.org 网站对传统的轮询方式和 `WebSocket` 调用方式作了一个详细的测试和比较，将一个简单的 `Web` 应用分别用轮询方式和 `WebSocket` 方式来实现，在这里引用一下他们的测试结果图：
 
 ![polling compare with websockets](http://liuwanlin.info/content/images/2015/04/image002.jpg)
 
