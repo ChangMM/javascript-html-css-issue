@@ -5,14 +5,14 @@ WebSocket 设计出来的目的就是要取代轮询和 Comet 技术，使客户
 
 因为 WebSocket 连接本质上就是一个 TCP 连接，所以在数据传输的稳定性和数据传输量的大小方面，和轮询以及 Comet 技术比较，具有很大的性能优势。Websocket.org 网站对传统的轮询方式和 WebSocket 调用方式作了一个详细的测试和比较，将一个简单的 Web 应用分别用轮询方式和 WebSocket 方式来实现，在这里引用一下他们的测试结果图：
 
-[polling compare with websockets](http://liuwanlin.info/content/images/2015/04/image002.jpg)
+![polling compare with websockets](http://liuwanlin.info/content/images/2015/04/image002.jpg)
 
 通过这张图可以清楚的看出，在流量和负载增大的情况下，`WebSocket` 方案相比传统的 `Ajax` 轮询方案有极大的性能优势。下面我们就一起来看一看 `Websocket` 吧。
 
 ###Websocket规范
 `WebSocket` 协议本质上是一个基于 `TCP` 的协议。为了建立一个 `WebSocket` 连接，客户端浏览器首先要向服务器发起一个 `HTTP` 请求，这个请求和通常的 `HTTP` 请求不同，包含了一些附加头信息，其中附加头信息 `Upgrade: WebSocket` 表明这是一个申请协议升级的 `HTTP` 请求，服务器端解析这些附加的头信息然后产生应答信息返回给客户端，客户端和服务器端的 `WebSocket` 连接就建立起来了，双方就可以通过这个连接通道自由的传递信息，并且这个连接会持续存在直到客户端或者服务器端的某一方主动的关闭连接。首先我们来看一看 `Websocket` 的握手过程：
 
-[websocket handshake](http://liuwanlin.info/content/images/2015/04/Websocket-handshake.png)
+![websocket handshake](http://liuwanlin.info/content/images/2015/04/Websocket-handshake.png)
 
 `Websocket` 请求和通常的 `HTTP` 请求很相似，但是其中有些内容是和 `WebSocket` 协议密切相关的，相比于普通的 `HTTP` 请求多了一些字段:
 * `Upgrade`：告诉服务器这个HTTP连接是升级的Websocket连接。
@@ -116,7 +116,7 @@ ws.onerror = function() {
 
 效果如下：
 
-[websocket chat](http://liuwanlin.info/content/images/2015/04/websocket-chat.gif)
+![websocket chat](http://liuwanlin.info/content/images/2015/04/websocket-chat.gif)
 
 ###参考
 * [WebSockets 简介](http://www.html5rocks.com/zh/tutorials/websockets/basics/)
