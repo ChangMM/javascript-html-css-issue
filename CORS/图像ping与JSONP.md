@@ -35,7 +35,7 @@ JSONP由两部分组成：回调函数和数据，回调函数是响应到来时
 ```javascript
 http://example.com/jsonp?callback=handleResponse 
 ```
-JSONP也是不受“同源策略”限制的，原因和图片ping是一样的，<script>标签也可以跨越，因此我们可以通过利用JONP来动态创建<script>，并将其src指向一个跨域的URL，就可以完成和跨域得服务器之间的通信了。下面就来看一个例子：
+JSONP也是不受“同源策略”限制的，原因和图片ping是一样的，`<script>`标签也可以跨越，因此我们可以通过利用JONP来动态创建`<script>`，并将其src指向一个跨域的URL，就可以完成和跨域得服务器之间的通信了。下面就来看一个例子：
 
 ```javascript
 var btn2 = document.querySelector("#start-jsonp");  
