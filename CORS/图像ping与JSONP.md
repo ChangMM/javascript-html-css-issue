@@ -60,4 +60,4 @@ router.get('/jsonp', function(req, res, next) {
 
 JSONP是非常简单易用的，与图像ping相比，优点就是能直接访问响应文本，能够在服务器与客户端建立双向通信。但是JSONP也是有缺点的：JSONP直接从其他域加载代码执行，如果其他域不安全，可能会在响应中夹带一些恶意代码。其次，要确定JSONP请求是否失败并不容易，HTML5为`<script>`增加了onerror方法，但是目前支持度还不是很好。
 
-> 完整代码
+> [完整代码](https://github.com/superlin/cross-demos)
