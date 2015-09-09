@@ -28,17 +28,16 @@ router.get('/img', function(req, res, next) {
 
 ###JSONP
 JSONP是JSON with padding（填充式JSON）的简写，是应用JSON的一种方法，看起来和JSON差不多，只不过是被包含在函数调用中的JSON，就像下面这样：
-
-
+```javascript
 callback({name: 'lwl'});  
-
+```
 JSONP由两部分组成：回调函数和数据，回调函数是响应到来时应该在页面中调用的函数，而数据是传入回调函数中的JSON数据（服务器填充的）。下面就是一个典型的JSONP请求：
-
+```javascript
 http://example.com/jsonp?callback=handleResponse 
-
+```
 JSONP也是不受“同源策略”限制的，原因和图片ping是一样的，<script>标签也可以跨越，因此我们可以通过利用JONP来动态创建<script>，并将其src指向一个跨域的URL，就可以完成和跨域得服务器之间的通信了。下面就来看一个例子：
 
-
+```javascript
 var btn2 = document.querySelector("#start-jsonp");  
 btn2.onclick = function(){  
     var script = document.createElement("script");
@@ -48,18 +47,17 @@ btn2.onclick = function(){
 function pagefunc(num){  
     document.querySelector("#result2").innerHTML = "我从服务器获得了一个随机数："+num;
 }
+```
 
 服务器代码：
-
+```javascript
 router.get('/jsonp', function(req, res, next) {  
   res.send('pagefunc(' + Math.random() + ')');
 });
+```
 效果如下：
+![jsonp](http://liuwanlin.info/content/images/2015/04/jsonp-1.gif)
 
-jsonp
+JSONP是非常简单易用的，与图像ping相比，优点就是能直接访问响应文本，能够在服务器与客户端建立双向通信。但是JSONP也是有缺点的：JSONP直接从其他域加载代码执行，如果其他域不安全，可能会在响应中夹带一些恶意代码。其次，要确定JSONP请求是否失败并不容易，HTML5为`<script>`增加了onerror方法，但是目前支持度还不是很好。
 
-JSONP是非常简单易用的，与图像ping相比，优点就是能直接访问响应文本，能够在服务器与客户端建立双向通信。但是JSONP也是有缺点的：JSONP直接从其他域加载代码执行，如果其他域不安全，可能会在响应中夹带一些恶意代码。其次，要确定JSONP请求是否失败并不容易，HTML5为<script>增加了onerror方法，但是目前支持度还不是很好。
-
-以上两种方法都是比较简单的跨域通信的方法，下一篇我们一起来看comet吧。
-
-完整代码请看这里
+> 完整代码
