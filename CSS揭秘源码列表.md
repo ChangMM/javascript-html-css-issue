@@ -27,6 +27,35 @@
 ```
 background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 ```
+5、[灵活的同色系条纹](http://play.csssecrets.io/subtle-stripes)
+> 这个想法挺棒的！
+
+###6、复杂的背景图案
+1、[网格](http://play.csssecrets.io/blueprint)
+> [CSS3图案库](http://lea.verou.me/css3patterns),这里面展示了CSS渐变早在2011年就能实现的效果。
+> [SVG版本](http://philbit.com/svgpatterns)这个里面的是上面的CSS3图案库的svg版本
+
+2、[波点](http://play.csssecrets.io/polka)
+
+3、[棋盘](http://play.csssecrets.io/checkerboard) [棋盘的SVG实现方法](http://play.csssecrets.io/checkerboard-svg)
+
+4、[角向渐变](http://play.csssecrets.io/test-conic-gradient)
+
+5、一个有意思的图案库[Bennett Feely的图案库](http://bennttfeely.com/gradient)
+
+###7、[伪随机背景](http://play.csssecrets.io/cicada-stripes)
+> 这项原则又被成为「蝉原则」
+
+###8、连续的图像边框
+1、[border-image的使用](http://play.csssecrets.io/border-image)
+
+2、[持续的图片边框](http://play.csssecrets.io/continuous-border-image)
+
+3、[老式信封的边框](http://play.csssecrets.io/vintage-envelope)
+
+4、[蚂蚁行军般的动态边框](http://play.csssecrets.io/marching-ants)
+
+5、[模仿传统的脚注](http://play.csssecrets.io/footnote)
 
 ###46.[状态平滑的动画](http://play.csssecrets.io/state-animations)
 ###47.环形路径平移的动画
