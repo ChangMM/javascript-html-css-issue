@@ -57,6 +57,36 @@ background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 
 5、[模仿传统的脚注](http://play.csssecrets.io/footnote)
 
+##第二章 形状
+###9、自适应的椭圆
+1、[自适应的椭圆](http://play.csssecrets.io/ellipse)
+
+2、[半椭圆](http://play.csssecrets.io/half-ellipse)
+
+3、[四分之一椭圆](http://play.csssecrets.io/quarter-ellipse)
+
+4、[各种形状的糖果按钮](http://simurai.com/archives/buttons)
+
+###10、平行四边形
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ###46.[状态平滑的动画](http://play.csssecrets.io/state-animations)
 ###47.环形路径平移的动画
 1、[两个元素的解决方案](http://play.csssecrets.io/circular-2elements)
