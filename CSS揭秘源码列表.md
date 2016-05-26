@@ -117,7 +117,16 @@ background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 
 2、[其他角度的解决方案](http://play.csssecrets.io/folded-corner-mixin)
 
+##第四章、字体排印
+###20、[连字符断行](http://play.csssecrets.io/hyphenation)
 
+###21、[插入换行](http://play.csssecrets.io/line-breaks)
+
+###22、[文本行的斑马条纹](http://play.csssecrets.io/zebra-lines)
+
+###23、[调整tab的宽度](http://play.csssecrets.io/tab-size)
+
+###24、[连字](http://play.csssecrets.io/ligatures)
 
 
 
