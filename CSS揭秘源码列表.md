@@ -68,8 +68,54 @@ background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 4、[各种形状的糖果按钮](http://simurai.com/archives/buttons)
 
 ###10、平行四边形
+1、[嵌套元素方案](http://play.csssecrets.io/parallelograms)
 
+2、[伪元素方案](http://play.csssecrets.io/parallelograms-pseudo)
 
+###11、菱形图片
+1、[基于变形的方案](http://play.csssecrets.io/diamond-images)
+
+2、[剪切路径的方案](http://play.csssecrets.io/diamond-clip)
+
+###12、切角效果
+1、[基于渐变的方案](http://play.csssecrets.io/bavel-corners-gradients)
+
+2、[弧形切角](http://play.csssecrets.io/scoop-corners)
+
+3、[内联SVG与border-image的方案](http://play.csssecrets.io/bavel-corners)
+
+4、[剪切路径的方案](http://play.csssecrets.io/bavel-corners-clipped)
+
+###13、[梯形标签页](http://play.csssecrets.io/trapezoid-tabs)
+
+###14、简单的饼图
+1、[基于transform的解决方案](http://play.csssecrets.io/pie-animated)
+
+2、[不同比率的静态饼图](http://play.csssecrets.io/pie-static)
+
+3、[svg的解决方案](http://play.csssecrets.io/pie-svg)
+
+###第三章、视觉效果
+###15、单侧投影
+1、[单侧投影](http://play.csssecrets.io/shadow-one-side)
+
+2、[临边投影](http://play.csssecrets.io/shadow-2-sides)
+
+3、[对侧投影](http://play.csssecrets.io/shadow-opposite-sides)
+
+###16、[不规则投影](http://play.csssecrets.io/drpo-shadow)
+
+###17、染色效果
+1、[基于滤镜的方案](http://play.csssecrets.io/color-tint-filter)
+
+2、[基于混合模式的方案](http://play.csssecrets.io/color-tint)
+
+###18、[毛玻璃效果](http://play.csssecrets.io/frosted-glass)
+
+###19、折角效果
+1、[45°角的解决方案](http://play.csssecrets.io/folded-corner)
+
+2、[其他角度的解决方案](http://play.csssecrets.io/folded-corner-mixin)
 
 
 
