@@ -1,4 +1,4 @@
-##第一章背景与边框
+##第一章、背景与边框
 ###1、[半透明边框](http://play.csssecrets.io/translu-cent-borders)
 ```
 主要是`background-clip:padding-box`;
@@ -57,7 +57,7 @@ background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 
 5、[模仿传统的脚注](http://play.csssecrets.io/footnote)
 
-##第二章 形状
+##第二章、形状
 ###9、自适应的椭圆
 1、[自适应的椭圆](http://play.csssecrets.io/ellipse)
 
@@ -128,7 +128,12 @@ background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 
 ###24、[连字](http://play.csssecrets.io/ligatures)
 
+###25、[华丽的&符号](http://play.csssecrets.io/ampersands)
 
+###26、自定义下划线
+1、[普通下划线](http://play.csssecrets.io/underlines)
+
+2、[波浪下划线](http://play.csssecrets.io/wavy-underlines)
 
 
 
