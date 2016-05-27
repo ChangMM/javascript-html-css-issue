@@ -146,6 +146,8 @@ background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 
 ###28、[环形文字的实现效果](http://play.csssecrets.io/circular-text)
 
+##第五章、用户体验
+
 ###29、选择合适用的鼠标
 1、[CSS基本UI特性](http://w3.org/TR/css3ui/#-cursor)
 
@@ -179,14 +181,33 @@ background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 
 2、[范围输入控件]
 
+##第六章、结构与布局
+###36、[自适应内部元素](http://play.csssecrets.io/intrinsic-sizing)
+###37、[精确控制列表宽度](http://play.csssecrets.io/table-column-widths)
+###38、[根据兄弟元素的数量来设置样式](http://play.csssecrets.io/styling-sibling-count)
+###39、[满幅的背景，定宽的内容](http://play.csssecrets.io/fluid-fixed)
+###40、垂直居中
+1、[基于绝对定位的解决方案](http://play.csssecrets.io/vertical-centering-abs)
 
+2、[基于视口单位的解决方案](http://play.csssecrets.io/vertical-centering-vh)
 
+3、[基于Flexbox的解决方案](http://play.csssecrets.io/vertical-centering)
 
+###41、紧贴底部的页脚
+1、[固定高度的解决方案](http://play.csssecrets.io/sticky-footer-fixed)
 
+2、[更灵活的解决方案](http://play.csssecrets.io/sticky-footer)
 
+##第七章、过渡与动画
+###42、缓动效果
+1、[弹跳效果](http://play.csssecrets.io/bounce)
 
+2、[弹性过渡](http://play.csssecrets.io/elastic)
 
+###43、[逐帧动画](http://play.csssecrets.io/frame-by-frame)
 
+###44、[闪烁效果](http://play.csssecrets.io/blink)
+###45、[打字效果](http://play.csssecrets.io/typing)
 ###46.[状态平滑的动画](http://play.csssecrets.io/state-animations)
 ###47.环形路径平移的动画
 1、[两个元素的解决方案](http://play.csssecrets.io/circular-2elements)
