@@ -135,9 +135,49 @@ background:repeat-linear-gradient(60deg,green 15px,blue 0,blue 30px);
 
 2、[波浪下划线](http://play.csssecrets.io/wavy-underlines)
 
+###27、现实中的文字效果
+1、[凸版印刷体效果](http://play.csssecrets.io/letterpress)
 
+2、[空心字效果](http://play.csssecrets.io/stroked-text)
 
+3、[文字外发光效果](http://play.csssecrets.io/glow)
 
+4、[文字凸起的效果](http://play.csssecrets.io/extruded)
+
+###28、[环形文字的实现效果](http://play.csssecrets.io/circular-text)
+
+###29、选择合适用的鼠标
+1、[CSS基本UI特性](http://w3.org/TR/css3ui/#-cursor)
+
+2、[提示禁用状态](http://play.csssecrets.io/disabled)
+
+###30、扩大可点击区域
+1、[Fitts法则](http://simonwallner.at/ext/fitts)
+
+2、[利用border的解决方案](http://play.csssecrets.io/hit-area-border)
+
+3、[利用伪元素的解决方案](http://play.csssecrets.io/hit-area)
+
+###31、自定义复选框
+1、[解决方案](http://play.csssecrets.io/checkboxes)
+
+2、[开关按钮](http://play.csssecrets.io/toggle-buttons)
+
+###32、通过阴影来弱化背景
+1、[伪元素方案]
+
+2、[box-shadow方案](http://play.csssecrets.io/dimming-box-shadow)
+
+3、[backdrop方案](http://play.csssecrets.io/native-model)
+
+###33、[通过模糊来弱化背景](http://play.csssecrets.io/deemphasizing-blur)
+
+###34、[滚动提示](http://play.csssecrets.io/scrolling-hints)
+
+###35、交互式的图片对比控件
+1、[CSS resize方案](http://play.csssecrets.io/image-slider)
+
+2、[范围输入控件]
 
 
 
